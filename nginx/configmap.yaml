@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index-html
+  labels:
+    app: nginx-app
+data:
+  index.html: |
+
+    <h2>Code.education Rocks</h2>
