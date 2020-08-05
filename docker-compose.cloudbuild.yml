@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  go-server:
+    image: zenatureza/go-server
+    build: .
+    entrypoint: sh ./.docker/run.sh
